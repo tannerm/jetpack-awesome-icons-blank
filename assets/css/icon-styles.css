@@ -1,0 +1,239 @@
+/*********************
+SHARING
+*********************/
+div.sd-social-icon .sd-content ul li[class*='share-'] {
+	list-style-type: none;
+	text-indent:     0;
+	padding-left:    0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-']:before {
+	display: none;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text {
+	line-height:            normal;
+	vertical-align:         middle;
+	background-image:       none;
+	background-position:    0% 0%;
+	background-repeat:      repeat;
+	font-weight:            normal;
+	font-style:             normal;
+	text-decoration:        inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-left:            1em;
+	text-align:             center;
+	color:                  #aaaaaa !important;
+	display:                inline-block;
+	background:             none;
+	padding:                0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text:before {
+	font-family: FontAwesome;
+	font-size:   3em;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-google-plus-1 {
+	margin-top: 0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-google-plus-1:before {
+	content: "\f0d4";
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-google-plus-1:hover {
+	color:   #dd4b39 !important;
+	opacity: 1;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-google-plus-1 span {
+	display: none;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-twitter {
+	margin-top: 0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-twitter:before {
+	content: "\f081";
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-twitter:hover {
+	color:   #00acee !important;
+	opacity: 1;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-twitter span {
+	display: none;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-facebook {
+	margin-top: 0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-facebook:before {
+	content: "\f082";
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-facebook:hover {
+	color:   #3b5998 !important;
+	opacity: 1;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-facebook span {
+	display: none;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-linkedin {
+	margin-top: 0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-linkedin:before {
+	content: "\f08c";
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-linkedin:hover {
+	color:   #0077b5 !important;
+	opacity: 1;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-linkedin span {
+	display: none;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-tumblr {
+	margin-top: 0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-tumblr:before {
+	content: "\f174";
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-tumblr:hover {
+	color:   #2c4762 !important;
+	opacity: 1;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-tumblr span {
+	display: none;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-pinterest {
+	margin-top: 0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-pinterest:before {
+	content: "\f0d3";
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-pinterest:hover {
+	color:   #ca1f27 !important;
+	opacity: 1;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-pinterest span {
+	display: none;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-print {
+	margin-top: 0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-print:before {
+	content: "\f02f";
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-print:hover {
+	color:   #333333 !important;
+	opacity: 1;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-print span {
+	display: none;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-email {
+	margin-top: 0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-email:before {
+	content: "\f199";
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-email:hover {
+	color:   #333333 !important;
+	opacity: 1;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-email span {
+	display: none;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-digg {
+	margin-top: 0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-digg:before {
+	content: "\f1a6";
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-digg:hover {
+	color:   #333333 !important;
+	opacity: 1;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-digg span {
+	display: none;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-reddit {
+	margin-top: 0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-reddit:before {
+	content: "\f1a2";
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-reddit:hover {
+	color:   #cee3f8 !important;
+	opacity: 1;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-reddit span {
+	display: none;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-stumbleupon {
+	margin-top: 0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-stumbleupon:before {
+	content: "\f1a3";
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-stumbleupon:hover {
+	color:   #ea4b24 !important;
+	opacity: 1;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-stumbleupon span {
+	display: none;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-pocket {
+	margin-top: 0;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-pocket:before {
+	content: "\f13a";
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-pocket:hover {
+	color:   #ee4056 !important;
+	opacity: 1;
+}
+
+div.sd-social-icon .sd-content ul li[class*='share-'] a[class*='share-'].no-text.share-pocket span {
+	display: none;
+}

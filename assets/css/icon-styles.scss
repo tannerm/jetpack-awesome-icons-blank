@@ -1,0 +1,121 @@
+$blue-light: #79c2ff;
+$gray: #aaa;
+
+/*********************
+SHARING
+*********************/
+// Sharing
+div.sd-social-icon {
+
+	h3.sd-title {
+	}
+
+	.sd-content {
+
+		ul li[class*='share-'] {
+			list-style-type: none;
+			text-indent: 0;
+			padding-left: 0;
+			&:before {
+				display: none;
+			}
+
+			a[class*='share-'].no-text {
+				line-height: normal;
+				vertical-align: middle;
+				background-image: none;
+				background-position: 0% 0%;
+				background-repeat: repeat;
+				font-weight: normal;
+				font-style: normal;
+				text-decoration: inherit;
+				-webkit-font-smoothing: antialiased;
+				margin-left: 1em;
+				text-align: center;
+				color: $gray !important;
+				display: inline-block;
+				background: none;
+				padding: 0;
+
+				&:before {
+					font-family: FontAwesome;
+					font-size: 3em;
+				}
+
+				&:hover {
+					// color: white !important;
+					&:before {
+						// background-color: $blue-light;
+					}
+				}
+
+				@mixin sharing-icons( $content, $color ) {
+					margin-top: 0;
+
+					&:before {
+						content: $content;
+					}
+					&:hover {
+						color: $color !important;
+						opacity: 1;
+					}
+					span {
+						display: none;
+					}
+				}
+
+				&.share-google-plus-1 {
+					@include sharing-icons( "\f0d4", #dd4b39 );
+				}
+
+				&.share-twitter {
+					@include sharing-icons( "\f081", #00acee );
+				}
+
+				&.share-facebook {
+					@include sharing-icons( "\f082", #3b5998 );
+				}
+
+				&.share-linkedin {
+					@include sharing-icons( "\f08c", #0077b5 );
+				}
+
+				&.share-tumblr {
+					@include sharing-icons( "\f174", #2c4762 );
+				}
+
+				&.share-pinterest {
+					@include sharing-icons( "\f0d3", #ca1f27 );
+				}
+
+				&.share-print {
+					@include sharing-icons( "\f02f", #333333 );
+				}
+
+				&.share-email {
+					@include sharing-icons( "\f199", #333333 );
+				}
+
+				&.share-digg {
+					@include sharing-icons( "\f1a6", #333333 );
+				}
+
+				&.share-reddit {
+					@include sharing-icons( "\f1a2", #cee3f8 );
+				}
+
+				&.share-stumbleupon {
+					@include sharing-icons( "\f1a3", #ea4b24 );
+				}
+
+				&.share-pocket {
+					@include sharing-icons( "\f13a", #ee4056 );
+				}
+
+			}
+
+		}
+
+	}
+
+}
